@@ -1,0 +1,29 @@
+
+table {
+width: 100%;
+table-layout:fixed
+}
+td {
+width: 33.33%;
+position: relative;
+}
+td:after {
+content: '';
+display: block;
+margin-top: 100%;
+}
+td div {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background: gold;
+border-radius:5px;
+text-align:center;
+font-size:2em;
+padding:1em
+}
+audio{width:100%;bottom:0;position:absolute; left:0}input{display:inline-block; width:90%}div{font-weight:700}
+input[type="file"]{display:none}
+*{font-family: helvetica;}
